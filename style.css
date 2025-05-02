@@ -32,10 +32,11 @@ body {
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 4rem; /* increased size */
+  font-size: 3.5rem;
   color: #b0356b;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* subtle shadow */
-  margin-bottom: 15px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  text-transform: uppercase; /* Ensures all letters are capitalized */
 }
 
 h2 {
