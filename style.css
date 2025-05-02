@@ -9,6 +9,7 @@ body, html {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   font-family: 'Poppins', sans-serif;
+  background: #fceef1;
 }
 
 section {
@@ -17,24 +18,31 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
-  background: #fdf7f9;
+  padding: 20px;
 }
 
 .slide {
-  max-width: 600px;
-  padding: 30px;
-  border-radius: 20px;
   background: white;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 2px solid #eee;
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 600px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
   text-align: center;
+  border: 2px solid #ffe1ec;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Dancing Script', cursive;
+  font-size: 2.8rem;
   color: #c0396c;
   margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 p {
@@ -43,15 +51,22 @@ p {
   line-height: 1.6;
 }
 
-a.location-link {
+.caption {
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+.location-link {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 10px;
   color: #0066cc;
-  text-decoration: underline;
   font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2rem;
   transition: color 0.3s ease;
 }
 
-a.location-link:hover {
+.location-link:hover {
   color: #c0396c;
 }
