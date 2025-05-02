@@ -32,22 +32,25 @@ body {
 
 h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem; /* increased size */
   color: #b0356b;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  margin-bottom: 10px;
 }
 
 h2 {
   font-family: 'Great Vibes', cursive;
-  font-size: 2.4rem;
+  font-size: 2.6rem; /* slightly larger */
   color: #5c2a4a;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem; /* slightly larger */
   color: #444;
-  line-height: 1.9;
+  line-height: 2;
 }
+
 
 .caption {
   margin-top: 18px;
