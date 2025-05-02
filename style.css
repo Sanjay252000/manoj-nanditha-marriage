@@ -36,8 +36,9 @@ h1 {
   color: #b0356b;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
-  text-transform: uppercase; /* Ensures all letters are capitalized */
+  text-align: center; /* Aligns the text to the center */
 }
+
 
 h2 {
   font-family: 'Great Vibes', cursive;
