@@ -1,70 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:wght@400;600&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500&display=swap');
 
 body {
-  font-family: 'Raleway', sans-serif;
-  background: linear-gradient(to bottom, #fff0f5, #e6f7ff); /* soft pink to light blue */
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #e6f7ff);
   padding: 60px 20px;
 }
 
-.page-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: center;
-}
-
-.box {
-  background: #fffaf0; /* light cream */
-  padding: 45px 35px;
-  max-width: 750px;
-  width: 100%;
-  border-radius: 25px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #ffd6e0;
-  text-align: center;
+h1, h2 {
+  font-family: 'Dancing Script', cursive;
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: #b0356b;
 }
 
 h2 {
-  font-family: 'Great Vibes', cursive;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #5c2a4a;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 p {
   font-size: 1.1rem;
+  line-height: 1.8;
   color: #444;
-  line-height: 1.9;
 }
 
-.caption {
-  margin-top: 18px;
-  font-style: italic;
-  color: #7a7a7a;
-}
-
-.location-link {
-  display: inline-block;
-  margin-top: 18px;
-  font-size: 1.2rem;
-  color: #0057a3;
-  font-weight: bold;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.location-link:hover {
-  color: #b0356b;
+.box {
+  background: #fffaf0;
+  padding: 50px 40px;
+  border-radius: 25px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ffd6e0;
+  max-width: 750px;
+  text-align: center;
 }
