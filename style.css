@@ -30,14 +30,15 @@ body {
   text-align: center;
 }
 
-h1 {
+ h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 3.5rem;
+  font-size: 2.4rem; /* reduced from 3.5rem */
   color: #b0356b;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
-  text-align: center; /* Aligns the text to the center */
-}
+  text-align: center;
+  line-height: 1.4;
+ }
 
 
 h2 {
